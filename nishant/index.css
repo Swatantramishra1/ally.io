@@ -1,0 +1,21 @@
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  border: 12px solid red;
+  border-top: 12px solid green;
+  border-bottom: 12px solid yellow;
+  border-left: 12px solid blueviolet;
+  border-right: 12px solid black;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
